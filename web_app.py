@@ -32,7 +32,7 @@ page_bg = f"""
 }}
 @keyframes bgZoom {{
     0% {{ transform: scale(1); }}
-    100% {{ transform: scale(1.1); }}
+    100% {{ transform: scale(1.05); }}
 }}
 
 /* ---------- SIDEBAR ---------- */
@@ -59,7 +59,7 @@ page_bg = f"""
 h1 {{
     text-align: center;
     font-family: 'Algerian', serif;
-    font-size: 46px;
+    font-size: 50px;
     background: -webkit-linear-gradient(#FFD700, #FFEA00, #FFF59D);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -172,7 +172,3 @@ st.markdown("""
     © 2025 | Designed by <b>You</b> 💛 | Powered by Lunar Orbit
     </center>
 """, unsafe_allow_html=True)
-
-
-
-# python -m streamlit run web_app.py
